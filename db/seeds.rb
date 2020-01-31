@@ -16,9 +16,9 @@ puts "==========================="
 puts "Creating Channels"
 puts "==========================="
 
-paris = Channel.new(name:"Paris")
-general = Channel.new(name:"General")
-react = Channel.new(name:"React")
+paris = Channel.new(name: "Paris")
+general = Channel.new(name: "General")
+react = Channel.new(name: "React")
 
 paris.save!
 general.save!
@@ -30,11 +30,11 @@ puts "==========================="
 puts "Creating Users"
 puts "==========================="
 
-valentin = User.new(email:"valentin@gmail.com", password: "azerty")
+valentin = User.new(email: "valentin@gmail.com", password: "azerty")
 
-paul = User.new(email:"paul@gmail.com", password: "azerty")
+paul = User.new(email: "paul@gmail.com", password: "azerty")
 
-lucas = User.new(email:"lucas@gmail.com", password: "azerty")
+lucas = User.new(email: "lucas@gmail.com", password: "azerty")
 
 valentin.save!
 paul.save!
